@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-01T11:06:09 PDT" name="Suite" finished-at="2026-10-01T11:06:21 PDT" duration-ms="11807">
+    <groups>
+    </groups>
+    <test started-at="2026-10-01T11:06:09 PDT" name="Test" finished-at="2026-10-01T11:06:21 PDT" duration-ms="11807">
+      <class name="Test.logintest">
+        <test-method is-config="true" signature="open()[pri:0, instance:Test.logintest@662ac478]" started-at="2026-10-01T11:06:09 PDT" name="open" finished-at="2026-10-01T11:06:14 PDT" duration-ms="4755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method is-config="true" signature="test()[pri:0, instance:Test.logintest@662ac478]" started-at="2026-10-01T11:06:14 PDT" name="test" finished-at="2026-10-01T11:06:14 PDT" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="objectcall()[pri:0, instance:Test.logintest@662ac478]" started-at="2026-10-01T11:06:14 PDT" name="objectcall" finished-at="2026-10-01T11:06:15 PDT" duration-ms="573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objectcall -->
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:Test.logintest@662ac478]" started-at="2026-10-01T11:06:15 PDT" name="browserclose" finished-at="2026-10-01T11:06:15 PDT" duration-ms="46" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=objectcall status=SUCCESS method=logintest.objectcall()[pri:0, instance:Test.logintest@662ac478] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Test.logintest@662ac478]" started-at="2026-10-01T11:06:20 PDT" name="teardown" finished-at="2026-10-01T11:06:21 PDT" duration-ms="1248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Test.logintest -->
+      <class name="Test.checkouttest">
+        <test-method is-config="true" signature="test()[pri:0, instance:Test.checkouttest@5bda8e08]" started-at="2026-10-01T11:06:17 PDT" name="test" finished-at="2026-10-01T11:06:17 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="checkpagetextverification()[pri:0, instance:Test.checkouttest@5bda8e08]" started-at="2026-10-01T11:06:17 PDT" name="checkpagetextverification" finished-at="2026-10-01T11:06:17 PDT" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkpagetextverification -->
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:Test.checkouttest@5bda8e08]" started-at="2026-10-01T11:06:17 PDT" name="browserclose" finished-at="2026-10-01T11:06:17 PDT" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkpagetextverification status=SUCCESS method=checkouttest.checkpagetextverification()[pri:0, instance:Test.checkouttest@5bda8e08] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="test()[pri:0, instance:Test.checkouttest@5bda8e08]" started-at="2026-10-01T11:06:17 PDT" name="test" finished-at="2026-10-01T11:06:17 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="objectcall()[pri:0, instance:Test.checkouttest@5bda8e08]" started-at="2026-10-01T11:06:17 PDT" name="objectcall" finished-at="2026-10-01T11:06:17 PDT" duration-ms="553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objectcall -->
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:Test.checkouttest@5bda8e08]" started-at="2026-10-01T11:06:17 PDT" name="browserclose" finished-at="2026-10-01T11:06:17 PDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=objectcall status=SUCCESS method=checkouttest.objectcall()[pri:0, instance:Test.checkouttest@5bda8e08] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- Test.checkouttest -->
+      <class name="Test.carttest">
+        <test-method is-config="true" signature="test()[pri:0, instance:Test.carttest@3eb738bb]" started-at="2026-10-01T11:06:16 PDT" name="test" finished-at="2026-10-01T11:06:16 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="cartyourcartwordverification()[pri:1, instance:Test.carttest@3eb738bb]" started-at="2026-10-01T11:06:16 PDT" name="cartyourcartwordverification" finished-at="2026-10-01T11:06:16 PDT" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartyourcartwordverification -->
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:Test.carttest@3eb738bb]" started-at="2026-10-01T11:06:16 PDT" name="browserclose" finished-at="2026-10-01T11:06:16 PDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cartyourcartwordverification status=SUCCESS method=carttest.cartyourcartwordverification()[pri:1, instance:Test.carttest@3eb738bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="test()[pri:0, instance:Test.carttest@3eb738bb]" started-at="2026-10-01T11:06:16 PDT" name="test" finished-at="2026-10-01T11:06:16 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="cartcontinueenable()[pri:2, instance:Test.carttest@3eb738bb]" started-at="2026-10-01T11:06:16 PDT" name="cartcontinueenable" finished-at="2026-10-01T11:06:16 PDT" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartcontinueenable -->
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:Test.carttest@3eb738bb]" started-at="2026-10-01T11:06:16 PDT" name="browserclose" finished-at="2026-10-01T11:06:16 PDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cartcontinueenable status=SUCCESS method=carttest.cartcontinueenable()[pri:2, instance:Test.carttest@3eb738bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="test()[pri:0, instance:Test.carttest@3eb738bb]" started-at="2026-10-01T11:06:16 PDT" name="test" finished-at="2026-10-01T11:06:16 PDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="cartcheckoutenable()[pri:3, instance:Test.carttest@3eb738bb]" started-at="2026-10-01T11:06:16 PDT" name="cartcheckoutenable" finished-at="2026-10-01T11:06:16 PDT" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartcheckoutenable -->
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:Test.carttest@3eb738bb]" started-at="2026-10-01T11:06:16 PDT" name="browserclose" finished-at="2026-10-01T11:06:16 PDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cartcheckoutenable status=SUCCESS method=carttest.cartcheckoutenable()[pri:3, instance:Test.carttest@3eb738bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="test()[pri:0, instance:Test.carttest@3eb738bb]" started-at="2026-10-01T11:06:16 PDT" name="test" finished-at="2026-10-01T11:06:16 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="cartcheckouting()[pri:4, instance:Test.carttest@3eb738bb]" started-at="2026-10-01T11:06:16 PDT" name="cartcheckouting" finished-at="2026-10-01T11:06:17 PDT" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartcheckouting -->
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:Test.carttest@3eb738bb]" started-at="2026-10-01T11:06:17 PDT" name="browserclose" finished-at="2026-10-01T11:06:17 PDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cartcheckouting status=SUCCESS method=carttest.cartcheckouting()[pri:4, instance:Test.carttest@3eb738bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- Test.carttest -->
+      <class name="Test.overviewtest">
+        <test-method is-config="true" signature="test()[pri:0, instance:Test.overviewtest@1e800aaa]" started-at="2026-10-01T11:06:17 PDT" name="test" finished-at="2026-10-01T11:06:17 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="overviewtext()[pri:1, instance:Test.overviewtest@1e800aaa]" started-at="2026-10-01T11:06:17 PDT" name="overviewtext" finished-at="2026-10-01T11:06:19 PDT" duration-ms="2187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- overviewtext -->
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:Test.overviewtest@1e800aaa]" started-at="2026-10-01T11:06:19 PDT" name="browserclose" finished-at="2026-10-01T11:06:19 PDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=overviewtext status=SUCCESS method=overviewtest.overviewtext()[pri:1, instance:Test.overviewtest@1e800aaa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="test()[pri:0, instance:Test.overviewtest@1e800aaa]" started-at="2026-10-01T11:06:19 PDT" name="test" finished-at="2026-10-01T11:06:19 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="overviewcancelenable()[pri:2, instance:Test.overviewtest@1e800aaa]" started-at="2026-10-01T11:06:19 PDT" name="overviewcancelenable" finished-at="2026-10-01T11:06:19 PDT" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- overviewcancelenable -->
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:Test.overviewtest@1e800aaa]" started-at="2026-10-01T11:06:19 PDT" name="browserclose" finished-at="2026-10-01T11:06:19 PDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=overviewcancelenable status=SUCCESS method=overviewtest.overviewcancelenable()[pri:2, instance:Test.overviewtest@1e800aaa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="test()[pri:0, instance:Test.overviewtest@1e800aaa]" started-at="2026-10-01T11:06:19 PDT" name="test" finished-at="2026-10-01T11:06:19 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="overviewfinishbutton()[pri:3, instance:Test.overviewtest@1e800aaa]" started-at="2026-10-01T11:06:19 PDT" name="overviewfinishbutton" finished-at="2026-10-01T11:06:20 PDT" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- overviewfinishbutton -->
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:Test.overviewtest@1e800aaa]" started-at="2026-10-01T11:06:20 PDT" name="browserclose" finished-at="2026-10-01T11:06:20 PDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=overviewfinishbutton status=SUCCESS method=overviewtest.overviewfinishbutton()[pri:3, instance:Test.overviewtest@1e800aaa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- Test.overviewtest -->
+      <class name="Test.hometest">
+        <test-method is-config="true" signature="test()[pri:0, instance:Test.hometest@233795b6]" started-at="2026-10-01T11:06:15 PDT" name="test" finished-at="2026-10-01T11:06:15 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="hometestproductverification()[pri:1, instance:Test.hometest@233795b6]" started-at="2026-10-01T11:06:15 PDT" name="hometestproductverification" finished-at="2026-10-01T11:06:15 PDT" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hometestproductverification -->
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:Test.hometest@233795b6]" started-at="2026-10-01T11:06:15 PDT" name="browserclose" finished-at="2026-10-01T11:06:15 PDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=hometestproductverification status=SUCCESS method=hometest.hometestproductverification()[pri:1, instance:Test.hometest@233795b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="test()[pri:0, instance:Test.hometest@233795b6]" started-at="2026-10-01T11:06:15 PDT" name="test" finished-at="2026-10-01T11:06:15 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="homeselect()[pri:2, instance:Test.hometest@233795b6]" started-at="2026-10-01T11:06:15 PDT" name="homeselect" finished-at="2026-10-01T11:06:15 PDT" duration-ms="357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeselect -->
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:Test.hometest@233795b6]" started-at="2026-10-01T11:06:15 PDT" name="browserclose" finished-at="2026-10-01T11:06:15 PDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=homeselect status=SUCCESS method=hometest.homeselect()[pri:2, instance:Test.hometest@233795b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="test()[pri:0, instance:Test.hometest@233795b6]" started-at="2026-10-01T11:06:15 PDT" name="test" finished-at="2026-10-01T11:06:15 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="homeaddcart()[pri:3, instance:Test.hometest@233795b6]" started-at="2026-10-01T11:06:15 PDT" name="homeaddcart" finished-at="2026-10-01T11:06:16 PDT" duration-ms="749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeaddcart -->
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:Test.hometest@233795b6]" started-at="2026-10-01T11:06:16 PDT" name="browserclose" finished-at="2026-10-01T11:06:16 PDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=homeaddcart status=SUCCESS method=hometest.homeaddcart()[pri:3, instance:Test.hometest@233795b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="test()[pri:0, instance:Test.hometest@233795b6]" started-at="2026-10-01T11:06:16 PDT" name="test" finished-at="2026-10-01T11:06:16 PDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="homecart()[pri:4, instance:Test.hometest@233795b6]" started-at="2026-10-01T11:06:16 PDT" name="homecart" finished-at="2026-10-01T11:06:16 PDT" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homecart -->
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:Test.hometest@233795b6]" started-at="2026-10-01T11:06:16 PDT" name="browserclose" finished-at="2026-10-01T11:06:16 PDT" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=homecart status=SUCCESS method=hometest.homecart()[pri:4, instance:Test.hometest@233795b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- Test.hometest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
